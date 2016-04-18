@@ -38,5 +38,6 @@ public class TingleActivity extends AppCompatActivity {
             fm.beginTransaction().hide(fragmentList).commit();
         }
     }
+
 }
 

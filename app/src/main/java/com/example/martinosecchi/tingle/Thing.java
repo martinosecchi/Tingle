@@ -6,6 +6,11 @@ package com.example.martinosecchi.tingle;
 public class Thing {
     private String mWhat = null;
     private String mWhere = null;
+
+    private String mInfo = null;
+    private Long latitude = null;
+    private Long longitude = null;
+
     public Thing(String what, String where) {
         mWhat = what;
         mWhere = where;
